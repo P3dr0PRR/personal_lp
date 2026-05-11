@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+}
+
+@layer components {
+  .NavBTNS {
+    @apply text-sm font-medium mb-2 text-white hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:p-2;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
