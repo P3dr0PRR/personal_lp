@@ -1,22 +1,25 @@
 @import "tailwindcss";
 
-@theme{
-     --font-sans: "Poppins", sans-serif;
-}
 @layer base {
-    h1{
-
-    }
   h2 {
-@apply text-[18px] md:text-[32px] font-bold text-white p-2 bg-black/50 rounded-lg;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
   }
-  h3{ 
-    @apply text-[18px] md:text-[32px] text-white
 
+  h3 {
+    font-size: 1.125rem;
+    color: white;
   }
-    p {
-        @apply text-[14px] md:text-[18px] text-sky-200 p-2 ;
-    }
+
+  p {
+    font-size: 0.875rem;
+    color: rgb(186, 230, 253);
+    padding: 0.5rem;
+  }
 }
 
 @layer components {
@@ -26,21 +29,43 @@
     margin-bottom: 0.5rem;
     color: white;
     border-radius: 0.375rem;
+    padding: 0.5rem;
   }
-.motivation {
-    @apply text-[14px] md:text-[18px] text-sky-200 p-2 bg-black/50 rounded-lg;
-}
+
   .NavBTNS:hover {
-    color: rgb(156 163 175);
+    color: rgb(156, 163, 175);
   }
 
- .BTNSlinks {
-    @apply text-base bg-red-500 hover:bg-gray-400 md:text-lg block leading-normal font-medium p-4 rounded-lg text-white;
+  .motivation {
+    font-size: 0.875rem;
+    color: rgb(186, 230, 253);
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
   }
 
- .SocialMedias {
-  @apply h-6 w-6 text-gray-300 hover:text-gray-500 transition-colors duration-300;
-}
+  .BTNSlinks {
+    font-size: 1rem;
+    background-color: rgb(239, 68, 68);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 500;
+  }
+
+  .BTNSlinks:hover {
+    background-color: rgb(156, 163, 175);
+  }
+
+  .SocialMedias {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: rgb(209, 213, 219);
+  }
+
+  .SocialMedias:hover {
+    color: rgb(107, 114, 128);
+  }
 }
 
 html {

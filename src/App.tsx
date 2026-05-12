@@ -1,12 +1,19 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Home } from "./pages/Home";
+import { PortifolioHome } from "./pages/PortifolioHome";
 
 function App() {
   return (
-    <main>
+    <BrowserRouter>
+
       <Header />
-      <Home />
-    </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<PortifolioHome />} />
+      </Routes>
+    
+    </BrowserRouter>
   );
 }
 

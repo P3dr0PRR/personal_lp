@@ -2,7 +2,7 @@ import Menubg from "../assets/personal.jpg";
 import JDoe from "../assets/Jdoe.png";
 import Wpp from "../assets/wpp.png";
 
-import { Footer } from "../components/Header/Footer";
+import { Footer } from "../components/Footer/Footer";
 
 export function Home() {
   return (

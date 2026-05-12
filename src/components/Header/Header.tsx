@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Jhon from "../../assets/JhonDoe.png";
 import Menu from "../../assets/menubg.png";
 import { useState } from "react";
@@ -14,12 +16,12 @@ export function Header() {
   );
   const links = (
     <>
-      <a href="#Home" className="NavBTNS">
+      <Link to="/" className="NavBTNS">
         Home
-      </a>
-      <a href="#Portfolio" className="NavBTNS">
+      </Link>
+      <Link to="/portfolio" className="NavBTNS">
         Portfolio
-      </a>
+      </Link>
     </>
   );
 
