@@ -2,7 +2,7 @@ import Menubg from "../assets/personal.jpg";
 import JDoe from "../assets/Jdoe.png";
 import Wpp from "../assets/wpp.png";
 
-import { Footer } from "../components/Footer/Footer";
+import { Footer } from "../components/Footer/Footer.tsx";
 
 export function Home() {
   return (
@@ -14,9 +14,9 @@ export function Home() {
         <img
           src={Menubg}
           alt="Personal"
-       className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
         />
-       <div className="relative z-10 flex flex-col min-h-[25vh] items-center justify-center gap-4 text-center py-32">
+        <div className="relative z-10 flex flex-col min-h-[25vh] items-center justify-center gap-4 text-center py-32">
           <div className="flex flex-col items-center justify-center gap-4 text-center ">
             <img
               src={JDoe}
