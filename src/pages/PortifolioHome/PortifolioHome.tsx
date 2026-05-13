@@ -1,20 +1,24 @@
 import Menubg from "../../assets/personal.jpg";
 import { Hero } from "./Hero";
+import { Projetos } from "./Projetos";
 
 export function PortifolioHome() {
   return (
-    <section
-      id="Portfolio"
-      className="w-full h-[500px] relative"
-    >
-      <img
+    <section id="Portfolio" className=" bg-gray-900/50">
+     <div className="w-full h-[500px] relative">
+       <img
         src={Menubg}
         alt="Personal"
         className="absolute inset-0 h-full w-full object-cover z-0"
       />
-     <div className="absolute inset-0 z-10 flex items-center justify-start px-8">
-  <Hero />
-</div>
+      <div className="absolute inset-0 z-10 flex items-center justify-start px-8">
+        <Hero />
+        
+      </div>
+     </div>
+      <div className="">
+        <Projetos />
+      </div>
     </section>
   );
 }

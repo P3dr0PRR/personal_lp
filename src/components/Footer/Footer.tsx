@@ -1,6 +1,6 @@
 import Jhon from "../../assets/JhonDoe.png";
 
-import { Contatos, SocialMedias, Solucoes, SobreMim } from "./Footer.ts";
+import { Contatos, SocialMedias, Solucoes, SobreMim } from "./FooterData.ts";
 
 export function Footer() {
   return (
