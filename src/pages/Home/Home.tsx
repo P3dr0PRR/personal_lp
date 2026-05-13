@@ -1,8 +1,8 @@
-import Menubg from "../assets/personal.jpg";
-import JDoe from "../assets/Jdoe.png";
-import Wpp from "../assets/wpp.png";
+import Menubg from "../../assets/personal.jpg";
+import JDoe from "../../assets/Jdoe.png";
+import Wpp from "../../assets/wpp.png";
 
-import { Footer } from "../components/Footer/Footer.tsx";
+import { Footer } from "../../components/Footer/Footer.tsx";
 
 export function Home() {
   return (
@@ -23,10 +23,14 @@ export function Home() {
               alt="Jon Doe J"
               className="h-32 w-32 bg-transparent"
             />
-            <h2>Com foco e direção, você vai além do que imagina.</h2>
-            <p className="motivation">buscando direção ?</p>
-            <h2>Entre em Contato</h2>
-            <p className="motivation">
+            <h2 className="slideInTitle">
+              Com foco e direção, você vai além do que imagina.
+            </h2>
+            <p className="slideInSubtitle">
+              buscando direção ?
+            </p>
+            <h2 className="slideInTitle">Entre em Contato</h2>
+            <p className="slideInSubtitle">
               Do primeiro treino ao resultado final, eu cuido de cada detalhe.
               Seu único trabalho é evoluir.
             </p>
