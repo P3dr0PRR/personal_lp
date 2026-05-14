@@ -1,9 +1,8 @@
-import example1 from "../../assets/example1.png";
-import example2 from "../../assets/example2.png";
-import example3 from "../../assets/example3.png";
-import example4 from "../../assets/example4.png";
-import example5 from "../../assets/example5.png";
-
+import example1 from "../../../assets/example1.png";
+import example2 from "../../../assets/example2.png";
+import example3 from "../../../assets/example3.png";
+import example4 from "../../../assets/example4.png";
+import example5 from "../../../assets/example5.png";
 
 export const ProjetosData = {
   example1: { src: example1, alt: "Example 1" },

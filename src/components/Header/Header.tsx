@@ -46,7 +46,7 @@ export function Header() {
       )}
 
       {isMenuOpen && (
-        <div className="flex flex-col md:flex-row justify-center items-center md:justify-between p-4 pt-6 w-full">
+        <div className="flex flex-col md:flex-row justify-center items-center md:justify-between p-4 pt-6 w-full h-35">
           {logo}
           <nav className="flex items-center justify-center md:justify-end gap-4 h-full w-full p-4">
             {links}

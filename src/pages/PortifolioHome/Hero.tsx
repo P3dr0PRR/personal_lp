@@ -6,7 +6,7 @@ export function Hero() {
       </h1>
      
       <p className="slideInSubtitle">
-         <span className=" block h-0.5 bg-[rgb(186,230,253)] w-[25%]"></span>
+         <span className=" block h-0.5 bg-red-600 w-[25%]"></span>
         Um método que expressa quem você é e funciona em qualquer contexto de
         treino.
       </p>

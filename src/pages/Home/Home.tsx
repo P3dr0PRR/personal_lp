@@ -26,9 +26,7 @@ export function Home() {
             <h2 className="slideInTitle">
               Com foco e direção, você vai além do que imagina.
             </h2>
-            <p className="slideInSubtitle">
-              buscando direção ?
-            </p>
+            <p className="slideInSubtitle">buscando direção ?</p>
             <h2 className="slideInTitle">Entre em Contato</h2>
             <p className="slideInSubtitle">
               Do primeiro treino ao resultado final, eu cuido de cada detalhe.
@@ -38,7 +36,7 @@ export function Home() {
               <img src={Wpp} alt="WhatsApp" className="h-6 w-6" />
               Atendimento via WhatsApp
             </button>
-            <span className="h-0.5 px-[25%] bg-indigo-50"></span>
+            <span className=" block h-0.5 bg-white w-[25%]"></span>
             <div className="flex flex-col items-center justify-center gap-4 text-center ">
               <h2>Acesse nosso Portfolio</h2>
               <button className="BTNSlinks">Portfolio</button>

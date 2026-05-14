@@ -4,7 +4,7 @@ import { Contatos, SocialMedias, Solucoes, SobreMim } from "./FooterData.ts";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-700 text-white py-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <footer className="bg-gray-700 text-white py-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sections-appear">
 
       <div className="flex flex-col flex-1 border-x p-2 items-center">
         <img
@@ -43,7 +43,7 @@ export function Footer() {
       </div>
 
       <div className="flex flex-col flex-1 border-x p-2">
-        <h3 className="font-bold">Soluções</h3>
+        <h3 className="font-bold text-white">Soluções</h3>
         <span className="block h-0.5 w-full bg-red-600 mb-2"></span>
         {Object.values(Solucoes).map((item: { title: string }) => (
           <div>
@@ -55,7 +55,7 @@ export function Footer() {
       </div>
 
       <div className="flex flex-col flex-1 border-x p-2">
-        <h3 className="font-bold">Sobre o Mim</h3>
+        <h3 className="font-bold text-white">Sobre o Mim</h3>
         <span className="block h-0.5 w-full bg-red-600 mb-2"></span>
         {Object.values(SobreMim).map((item: { title: string }) => (
           <ul className="list-disc list-inside text-left">

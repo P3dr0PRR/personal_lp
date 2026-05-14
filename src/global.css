@@ -21,21 +21,24 @@
 
   h3 {
     font-size: 1.125rem;
-    color: white;
+    color: red;
   }
 
   p {
     font-size: 0.875rem;
-    color: rgb(186, 230, 253);
+    color: red;
     padding: 0.5rem;
     padding: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
     border-radius: 0.5rem;
 
   }
 }
 
 @layer components {
+  .sections{
+    md:padding: 0 7rem 0 7rem;
+  }
   .NavBTNS {
     font-size: 0.875rem;
     font-weight: 500;
@@ -84,6 +87,10 @@
     animation: slideInTitle 3s ease both;
   }
 
+  .sections-appear {
+    animation: sections-appear 1s ease both;
+  }
+
   .slideInSubtitle {
     animation: slideInSubtitle 5s ease both;
   }
@@ -110,6 +117,17 @@
   }
   to {
     transform: translateX(0);
+  }
+}
+
+@keyframes sections-appear {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
