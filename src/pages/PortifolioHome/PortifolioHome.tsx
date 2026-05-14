@@ -4,6 +4,7 @@ import { Projetos } from "./Projetos/Projetos";
 import {Sobre} from "./Sobre";
 import { Planos } from "./Planos";
 import { Message } from "./Message";
+import { PortifolioFooter } from "./PortifolioFooter";
 
 export function PortifolioHome() {
   return (
@@ -23,6 +24,7 @@ export function PortifolioHome() {
         <Sobre />
         <Planos />
         <Message />
+        <PortifolioFooter />
       </div>
     </section>
   );
