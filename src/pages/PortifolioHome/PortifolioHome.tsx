@@ -1,15 +1,18 @@
 import Menubg from "../../assets/personal.jpg";
 import { Hero } from "./Hero";
 import { Projetos } from "./Projetos/Projetos";
-import {Sobre} from "./Sobre";
-import { Planos } from "./Planos";
+import { Sobre } from "./Sobre";
+import { Planos } from "./Planos/Planos";
 import { Message } from "./Message";
 import { PortifolioFooter } from "./PortifolioFooter";
 
 export function PortifolioHome() {
   return (
-    <section id="Portfolio" className=" bg-linear-to-b from-gray-900 via-gray-700 to-gray-900">
-      <div className="w-full h-[500px] relative">
+    <section
+      id="Portfolio"
+      className=" bg-linear-to-b from-gray-900 via-gray-700 to-gray-900"
+    >
+      <div className="w-full h-125 relative">
         <img
           src={Menubg}
           alt="Personal"
