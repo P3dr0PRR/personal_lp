@@ -36,9 +36,15 @@
 }
 
 @layer components {
-  .sections{
-    md:padding: 0 7rem 0 7rem;
+ .sections {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .sections {
+    padding: 0 7rem;
   }
+}
   .NavBTNS {
     font-size: 0.875rem;
     font-weight: 500;

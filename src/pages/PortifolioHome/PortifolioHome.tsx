@@ -2,6 +2,7 @@ import Menubg from "../../assets/personal.jpg";
 import { Hero } from "./Hero";
 import { Projetos } from "./Projetos/Projetos";
 import {Sobre} from "./Sobre";
+import { Planos } from "./Planos";
 
 export function PortifolioHome() {
   return (
@@ -19,6 +20,7 @@ export function PortifolioHome() {
       <div className="">
         <Projetos />
         <Sobre />
+        <Planos />
       </div>
     </section>
   );
