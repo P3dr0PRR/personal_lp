@@ -9,7 +9,7 @@ export function Home() {
     <>
       <section
         id="Home"
-        className="min-h-screen w-full flex items-center justify-center relative"
+        className="min-h-screen w-full flex items-center justify-center relative "
       >
         <img
           src={Menubg}
