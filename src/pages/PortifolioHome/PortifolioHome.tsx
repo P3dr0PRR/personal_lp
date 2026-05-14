@@ -3,6 +3,7 @@ import { Hero } from "./Hero";
 import { Projetos } from "./Projetos/Projetos";
 import {Sobre} from "./Sobre";
 import { Planos } from "./Planos";
+import { Message } from "./Message";
 
 export function PortifolioHome() {
   return (
@@ -21,6 +22,7 @@ export function PortifolioHome() {
         <Projetos />
         <Sobre />
         <Planos />
+        <Message />
       </div>
     </section>
   );
