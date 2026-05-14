@@ -31,10 +31,10 @@ export function Projetos() {
     <section className="sections-appear sections">
       <div className="flex flex-col items-center justify-center rounded-md gap-8 m-4">
         <h1>A consultoria referência em resultados reais</h1>
-        <h3 className="text-red-600 bg-black/50 rounded-md p-4">
+        <h2>
           Transformações construídas com método, estratégia e acompanhamento de
           verdade
-        </h3>
+        </h2>
         <span className=" block h-0.5 bg-[rgb(186,230,253)]"></span>
       </div>
       <div className="flex items-center justify-center gap-4">

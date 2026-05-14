@@ -7,7 +7,7 @@ export function Planos() {
     <section className="sections-appear sections mt-12">
       <div className="conteudo space-y-3 ">
         <p className="font-bold text-xl">Planos acessíveis</p>
-        <h2 className="">
+        <h2 >
           Escolha o plano ideal para o seu momento e comece agora a treinar com
           a consultoria eleita a melhor do ano.
         </h2>

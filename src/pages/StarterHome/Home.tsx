@@ -32,14 +32,14 @@ export function Home() {
               Do primeiro treino ao resultado final, eu cuido de cada detalhe.
               Seu único trabalho é evoluir.
             </p>
-            <button className="BTNSlinks flex items-center gap-2 bg-green-500 hover:bg-green-600 cursor-pointer">
+            <button className="BTNSlinks flex items-center gap-2 bg-green-600 hover:bg-cta-sucess-green cursor-pointer">
               <img src={Wpp} alt="WhatsApp" className="h-6 w-6" />
               Atendimento via WhatsApp
             </button>
             <span className=" block h-0.5 bg-white w-[25%]"></span>
             <div className="flex flex-col items-center justify-center gap-4 text-center ">
               <h2>Acesse nosso Portfolio</h2>
-              <button className="BTNSlinks">Portfolio</button>
+              <button className="BTNSlinks cursor-pointer">Portfolio</button>
             </div>
           </div>
         </div>

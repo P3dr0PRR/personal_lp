@@ -2,50 +2,40 @@
 
 @theme {
   /* Swatches — Background */
-  --color-bg-deep: #0a0e17;
   --color-bg-base: #0f1621;
-  --color-bg-surface: #1a2236;
-  --color-bg-elevated: #1e2c45;
-  --color-bg-card: #243355;
 
   /* Brand Red */
-  --color-brand-950: #7f0e08;
   --color-brand-800: #b91c1c;
-  --color-brand-base: #dc2626;
   --color-brand-hover: #e5352a;
-  --color-brand-light: #ff6b60;
 
   /* Text Hierarchy */
   --color-text-primary: #f9fafb;
   --color-text-heading: #d1d9e8;
   --color-text-body: #9aaac4;
-  --color-text-muted: #8d9ab7;
-  --color-text-subtle: #6b7a99;
 
   /* CTA & Accent */
   --color-cta-lime: #b8ff00;
   --color-cta-sucess-green: #24d97a;
-  --color-cta-warning-amber: #f5a623;
-  --color-cta-border-base: #1e2c45;
-  
 }
 
 @layer base {
   h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: var(--color-text-primary);
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--color-cta-border-base);
     border-radius: 0.5rem;
   }
 
   h2 {
     font-size: 1.125rem;
     font-weight: bold;
-    color: white;
+    color: var(--color-text-heading);
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--color-cta-border-base);
     border-radius: 0.5rem;
   }
 
@@ -56,10 +46,11 @@
 
   p {
     font-size: 0.875rem;
-    color: red;
+    color: var(--color-text-body);
     padding: 0.5rem;
     padding: 0.5rem;
     background-color: rgb(0, 0, 0);
+    border: 1px solid var(--color-cta-border-base);
     border-radius: 0.5rem;
   }
 }
@@ -92,20 +83,21 @@
     color: rgb(186, 230, 253);
     padding: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--color-cta-border-base);
+
     border-radius: 0.5rem;
   }
 
   .BTNSlinks {
     font-size: 1rem;
-    background-color: rgb(239, 68, 68);
+    background-color: var(--color-brand-800);
     padding: 1rem;
     border-radius: 0.5rem;
-    color: white;
     font-weight: 500;
   }
 
   .BTNSlinks:hover {
-    background-color: rgb(156, 163, 175);
+    background-color: var(--color-brand-hover);
   }
 
   .SocialMedias {
